@@ -1,0 +1,64 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    color: black;
+    margin-left: 30px;
+}
+
+.header * {
+    border: solid;
+    padding: 30px
+} 
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #5b5ca3;
+}
+.header{
+    background-color: rgb(128, 53, 99);
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+    padding : 30px
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+opacity : 0;
+}
+
+.item:hover p {
+    opacity : 1;
+}
+.item:hover img {
+opacity : 0.50
+}
+a:link{
+    color:white
+}
+
+a:visited{
+    color:black
+}
